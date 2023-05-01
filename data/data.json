@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "text": "Zet de spreuken hieronder in de juiste volgorde van lichtste naar krachtigste spreuk.",
+      "options": [
+        {
+          "id": 1,
+          "text": "Stupefy"
+        },
+        {
+          "id": 2,
+          "text": "Expelliarmus"
+        },
+        {
+          "id": 3,
+          "text": "Sectumsempra"
+        },
+        {
+          "id": 4,
+          "text": "Avada Kedavra"
+        }
+      ],
+      "answer": "1"
+    },
+    {
+      "id": 2,
+      "type": "input",
+      "text": "Welke spreuk zou je gebruiken om jezelf te genezen na het drinken van een vergiftigde drank?",
+      "answer": "Antidotum Veritaserum"
+    },
+    {
+      "id": 3,
+      "type": "Sortablechoice",
+      "text": "Welke spreuk is de meest bekende spreuken aller tijden?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Avada Kedavra"
+        },
+        {
+          "id": "B",
+          "text": "Expelliarmus"
+        },
+        {
+          "id": "C",
+          "text": "Expecto Patronum"
+        },
+        {
+          "id": "D",
+          "text": "Alohomora"
+        }
+      ],
+      "answer": "A"
+    }
+  ]
+}
