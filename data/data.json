@@ -1,58 +1,22 @@
 {
     "questions": [
       {
-        "id": 1,
-        "type": "Sortablechoice",
-        "text": "Zet de spreuken hieronder in de juiste volgorde van lichtste naar krachtigste spreuk.",
-        "options": [
-          {
-            "id": 1,
-            "text": "Stupefy"
-          },
-          {
-            "id": 2,
-            "text": "Expelliarmus"
-          },
-          {
-            "id": 3,
-            "text": "Sectumsempra"
-          },
-          {
-            "id": 4,
-            "text": "Avada Kedavra"
-          }
-        ],
-        "answer": "1"
-      },
-      {
-        "id": 2,
         "type": "input",
-        "text": "Welke spreuk zou je gebruiken om jezelf te genezen na het drinken van een vergiftigde drank?",
-        "answer": "Antidotum Veritaserum"
+        "question": "What is your name?",
+        "answer": "abdi"
       },
       {
-        "id": 3,
+        "type": "sort",
+        "question": "Sort the following numbers in ascending order:",
+        "options": ["5", "1", "3", "2"],
+        "answer": ["1", "2", "3", "5"]
+      },
+      {
         "type": "multiple_choice",
-        "text": "Welke spreuk is de meest bekende spreuken aller tijden?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Avada Kedavra"
-          },
-          {
-            "id": "B",
-            "text": "Expelliarmus"
-          },
-          {
-            "id": "C",
-            "text": "Expecto Patronum"
-          },
-          {
-            "id": "D",
-            "text": "Alohomora"
-          }
-        ],
-        "answer": "A"
+        "question": "What is the capital of France?",
+        "options": ["New York", "Paris", "Tokyo", "London"],
+        "answer": "Paris"
       }
     ]
   }
+  
